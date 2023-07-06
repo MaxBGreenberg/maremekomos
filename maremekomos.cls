@@ -473,6 +473,14 @@
     \global\let\date\relax
     \global\let\and\relax
   }
+
+% Required Packages
+\RequirePackage{fullpage}	% Sets all margins to 1in
+\RequirePackage{hyperref}	% Enables hyperlinks
+\Requirepackage{polyglossia}	% Enables bidirectional, multilingual typesetting
+
+\setmainlanguage{hebrew}
+
 \def\@maketitle{%
   \newpage
   \begin{center}%
